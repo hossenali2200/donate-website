@@ -51,6 +51,9 @@ button{
     width: 600px;
 }
 
+
+/* first container */
+
 .first-container{
     width: 720px;
     margin: 0 auto;
@@ -90,6 +93,8 @@ button{
     color: red;
 }
 
+
+/* plan section */
 .plan{
     width: 1080px;
     margin: 0 auto;
@@ -110,7 +115,8 @@ button{
 }
 
 .plan-card{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     text-align: left;
 }
@@ -139,19 +145,22 @@ button{
     padding: 1rem;
 }
 
+/* camp container */
+
 .relief-camp-section{
     margin-top: 2rem;
     width: 1080px;
 }
 
 .camp-container{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     margin-bottom: 5rem;
 }
 
 .camp-content{
-    width: 50%;
+    width: 100%;
     padding: 2rem;
 }
 
@@ -170,7 +179,7 @@ button{
 }
 
 .camp-img{
-    width: 50%;
+    width: 100%;
 }
 .camp-img img{
     width: 100%;
@@ -239,6 +248,134 @@ footer h3{
 
 footer p{
     color: rgb(217, 219, 225);
+}
+
+/* mobile responsive */
+
+@media screen and (max-width:576px) {
+    .head{
+        width: 90%;
+    }
+    .head-content{
+        width: 90%;
+        padding: 1rem;
+        
+    }
+    
+    .head-content h3{
+        font-weight: 700;
+        font-size: 36px;
+         
+        margin-top: 150px;
+    }
+    
+    .head-content p{
+         
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        width: 90%;
+    }
+
+    .first-container{
+        width: 90%;
+         
+        margin-top: 1rem;
+         
+    }
+    
+  
+    
+    .first-container p{
+        color: rgb(112, 112, 112);
+        font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 2rem;
+    }
+    
+   
+    
+    .button-content p{
+        font-size: 16px;
+        font-weight: 600;
+        border: 2px solid rgb(255, 89, 89);
+        padding: .5rem;
+        width: 70px;
+        border-radius: 5px;
+    }
+
+    .plan{
+        width: 90%;
+         
+    } 
+     .plan-card{
+         
+        grid-template-columns:  1fr;
+         
+    }
+
+    .relief-camp-section{
+         
+        width: 90%;
+    }
+
+    .camp-container{
+         
+        grid-template-columns:   1fr;
+         
+    }
+
+    .camp-content{
+        width: 100%;
+         
+    }
+    .camp-img{
+        width: 100%;
+    }
+    .camp-img img{
+        width: 100%;
+    }
+
+    .update{
+        max-width: 90%;
+         
+    }
+    
+    
+    
+     
+    
+    .subscribe{
+        width: 90%;
+         
+    }
+    
+    .input-1{
+        width: 90%;
+        
+    }
+    
+    .input-2{
+        width: 90%;
+        margin-top: .5rem;
+          
+    }
+    
+    footer{
+        width: 90%;
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+     
+    
+    
+    
+    
 }
 
  
