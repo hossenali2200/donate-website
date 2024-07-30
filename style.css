@@ -138,3 +138,107 @@ button{
     background-color: rgb(243, 174, 174);
     padding: 1rem;
 }
+
+.relief-camp-section{
+    margin-top: 2rem;
+    width: 1080px;
+}
+
+.camp-container{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 5rem;
+}
+
+.camp-content{
+    width: 50%;
+    padding: 2rem;
+}
+
+.camp-content h3{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+     
+}
+
+.camp-content p{
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.camp-img{
+    width: 50%;
+}
+.camp-img img{
+    width: 100%;
+}
+
+.camp-content button{
+    width: 230px;
+}
+
+.update{
+    max-width: 690px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.update h3{
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+     
+}
+
+.update p{
+    color: rgb(112, 112, 112);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.subscribe{
+    width: 800px;
+    background-color: rgb(245, 205, 114);
+    text-align: center;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+
+.input-1{
+    width: 275px;
+    height: 56px;
+}
+
+.input-2{
+    width: 160px;
+    height: 56px;
+     
+     
+    background-color: rgb(255, 89, 89);
+     border: none;
+    
+}
+
+footer{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer h3{
+    color: red;
+}
+
+footer p{
+    color: rgb(217, 219, 225);
+}
+
+ 
